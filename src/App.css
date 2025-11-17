@@ -1,0 +1,9 @@
+body { font-family: Inter, sans-serif; font-size: 100%; line-height: 1.5; color: #000; }
+#wrap { display: flex; justify-content: center; align-items: center; background: #e2f0dd; height: 100vh; }
+.inner { box-shadow: 1px 1px 10px rgba(0,0,0,0.2); border-radius: 30px; padding: 50px; background: #fff; text-align: center; }
+h1 { font-size: 35px; }
+.number { color: transparent; font-size: 100px; font-weight: 700; 
+  background-image: linear-gradient(#66bd00,#b2df00); -webkit-background-clip: text; background-clip: text; }
+.btn { display: flex; gap: 5px; align-items: center; }
+.btn button { background: #000; color: #fff; width: 50px; height: 50px; border-radius: 50%; }
+.btn button.reset { width: 70px; height: 70px; background: #66bd00; }
